@@ -1,0 +1,12 @@
+version: 2
+
+version: 2
+sources:
+  - name: datafeed_shared_schema
+    database: "{{('dbt_db')}}"
+    schema: dbt_schema
+
+    tables:
+      - name: CUSTOMER
+      - name: PAYMENTS
+      - name: ORDERS
